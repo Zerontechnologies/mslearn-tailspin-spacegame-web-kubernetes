@@ -52,7 +52,7 @@ stages:
     pool:
       #name: MyAgentPool
       vmImage: 'ubuntu-20.04'
-    environment: 'spike.default'
+    #environment: 'spike.default'
     variables:
     - group: Release
     strategy:
