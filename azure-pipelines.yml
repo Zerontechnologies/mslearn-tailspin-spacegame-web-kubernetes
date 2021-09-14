@@ -50,7 +50,8 @@ stages:
   - deployment: Deploy
     displayName: Deploy
     pool:
-      vmImage: 'ubuntu-20.04'
+      name: MyAgentPool
+      #vmImage: 'ubuntu-20.04'
     environment: 'spike.default'
     variables:
     - group: Release
